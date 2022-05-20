@@ -16,7 +16,7 @@ Due to Github's size constraints (as the data is >100MB), please email me (at pl
 - ``models.py`` contains the models
 - ``helpers.py`` contains utility functions
 - ``maan.py`` is the script that can be used to train the MAAN model 
-- ``emaan.py`` is the script that can be used to train the EMAAN model (As the network/graph here is rather large, you may need a GPU with more RAM.
+- ``emaan.py`` is the script that can be used to train the EMAAN model (As the network/graph here is rather large, you may need a GPU with more RAM.)
 
 ### Running the code
 Run either of the commands below.
