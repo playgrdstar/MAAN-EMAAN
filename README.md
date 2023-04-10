@@ -9,14 +9,14 @@ The key libraries required are Pytorch, Numpy, Pandas, Scipy, Networkx, DGL. See
 
 ### Datasets
 
-Due to Github's size constraints (as the data is >100MB), please email me (at playgrdstar(at)gmail(dot)com) for the data files that should be placed in this folder. Data should be placed in the ``data/RICO_N`` and the  ``data/RICO_M_W`` folder. 
+The RICO data set is publicly available at http://interactionmining.org/. Details on processing the data are provided in the paper.
 
 ### Repository Organization
 - ``data/RICO_N`` and ``data/RICO_M_W`` should contain the pre-processed datasets. 
 - ``models.py`` contains the models
 - ``helpers.py`` contains utility functions
 - ``maan.py`` is the script that can be used to train the MAAN model 
-- ``emaan.py`` is the script that can be used to train the EMAAN model (As the network/graph here is rather large, you may need a GPU with more RAM.)
+- ``emaan.py`` is the script that can be used to train the EMAAN model
 
 ### Running the code
 Run either of the commands below.
